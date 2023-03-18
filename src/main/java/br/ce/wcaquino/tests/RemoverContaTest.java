@@ -13,9 +13,9 @@ public class RemoverContaTest extends BaseTest {
 	private ContasPage contasPage = new ContasPage();
 	
 	@Test
-	public void testRemoverConta() {
+	public void test1_RemoverConta() {
 		menuPage.acessarTelaListarConta();
-		contasPage.clicarExcluirConta("Conta do Teste 2023");
+		contasPage.clicarExcluirConta("Conta alterada");
 		Assert.assertEquals("Conta removida com sucesso!", contasPage.obterMensagemSucesso());
 	}
 }

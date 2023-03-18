@@ -20,14 +20,14 @@ public class BaseTest {
 	@Rule
 	public TestName testName = new TestName(); 
 
-	/*
+	
 	@Before
 	public void inicializa() {
 		page.acessarTelaInicial();
 		page.logar("talesernani@gmail.com", "th@les123");
 		// page.entrar();
 	}
-	 */
+	
 	
 	@After
 	public void finalizar() throws IOException { // Screenshot das telas

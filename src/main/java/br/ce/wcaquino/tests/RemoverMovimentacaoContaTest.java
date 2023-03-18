@@ -15,7 +15,7 @@ public class RemoverMovimentacaoContaTest extends BaseTest {
 	@Test
 	public void test1_ExcluirConta() {
 		menuPage.acessarTelaListarConta();
-		contasPage.clicarExcluirConta("Conta do Teste 2023");
+		contasPage.clicarExcluirConta("Conta com movimentacoes");
 		Assert.assertEquals("Conta em uso na movimentações", contasPage.obterMensagemErro());
 	}
 }
